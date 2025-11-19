@@ -51,18 +51,7 @@ export const HeroSection = () => {
           </span>
         </h1>
 
-        {/* Typewriter */}
-        {/* <h2 className="text-lg sm:text-2xl md:text-3xl font-semibold text-primary leading-relaxed">
-          <Typewriter
-            words={["Frontend Developer", "MERN Stack Developer"]}
-            loop={0}
-            cursor
-            cursorStyle="|"
-            typeSpeed={80}
-            deleteSpeed={50}
-            delaySpeed={1500}
-          />
-        </h2> */}
+        
 
         {/* View Work Button */}
         <div className="pt-2 sm:pt-4 opacity-0 animate-fade-in-delay-4 flex justify-center lg:justify-start">
@@ -141,7 +130,7 @@ export const HeroSection = () => {
             {/* Inner Background + Image */}
             <div className="rounded-full bg-background p-[3px] sm:p-1">
               <img
-                src="/src/assets/hero-image - Edited.png"
+                src="/hero-image - Edited.png"
                 alt="Hero"
                 className="w-40 sm:w-56 md:w-72 lg:w-[26rem] rounded-full shadow-2xl object-cover"
               />
